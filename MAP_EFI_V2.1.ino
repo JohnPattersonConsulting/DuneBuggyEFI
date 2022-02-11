@@ -14,7 +14,7 @@ const int injectorPin = 6;
 const int LEDPin = 13;
 
 // Timing constants:
-const unsigned long injectorUpdateInterval = 50000;
+const unsigned long injectorUpdateInterval = 30000;
 const unsigned long interruptDebounce = 3000;
 const unsigned long primeTime = 300;
 const unsigned long pumpTime = 0;
